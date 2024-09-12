@@ -10,6 +10,4 @@
         void MultiplySpeed(float multiplier);
         void SetSpeed(float newSpeed);
     }
-
-
 }
