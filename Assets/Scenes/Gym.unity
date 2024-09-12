@@ -1417,6 +1417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4073896662532924150, guid: 24d04f023f2b3f34ca3fcfd37eb86f40, type: 3}
+      propertyPath: m_Name
+      value: Armature.005
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
