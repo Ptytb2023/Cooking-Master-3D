@@ -7,6 +7,12 @@ namespace Infrastructure.Services.Input
         private PcInputService _pcInputService;
         private MobileInputService _mobileInputService;
 
+        public StandaloneInputService()
+        {
+            _pcInputService = new PcInputService();
+            _mobileInputService = new MobileInputService();
+        }
+
         public Vector2 Axis
         {
             get
