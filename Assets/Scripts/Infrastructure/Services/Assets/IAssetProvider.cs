@@ -1,3 +1,6 @@
+﻿using Customers;
+using Items;
+
 namespace Infrastructure.Services.Assets
 {
     public interface IAssetProvider : IService
